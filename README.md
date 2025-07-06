@@ -1,18 +1,23 @@
-A smart Building Analysis Tool (BAT) designed for architects to enhance the accessibility & navigation of healthcare spaces for visually-impaired users.
+As the global population of visually impaired individuals is projected to reach 18.5% by 2050, the need for truly inclusive architectural spaces has never been more urgent. That’s why, as part of the specialized Master in AI for Architecture & the Built Environment at Institute for Advanced Architecture of Catalonia, my team and I embarked on a mission to bridge this gap with innovation and empathy.
+I proudly present the Building Analysis Tool (B.A.T)—a revolutionary platform designed to empower architects to create spaces that are not just functional but deeply human-centered. Focused on primary healthcare centers, B.A.T seamlessly integrates into the architectural workflow to enhance navigation, safety, and inclusivity for visually impaired users.
 
-A project developed by:
+What makes B.A.T groundbreaking is its advanced AI technologies used in the technical workflow:
+1. IFC Import: Architects upload the building's IFC file, which contains its geometry and metadata.
+2. Data Filtering: The system refines the IFC data to retain relevant components (walls, doors, pathways).
+3. Graph Creation: Converts the filtered data into a graph structure, analyzing connections and calculating distances.
+4. Walkability Analysis: Applies a custom formula to identify accessible, safe, and efficient paths for visually impaired users.
+5. Image Segmentation: Detects architectural elements and obstacles through 3D visualization and AI-based segmentation.
+6. Guideline Integration: Incorporates accessibility standards (ADA, iHFG, FGI) to offer evidence-based recommendations.
+7. AI Suggestions: Uses LLMs to provide actionable design improvements for better navigation and inclusivity.
+8. Output: Generates accessibility reports, optimized paths, and actionable design feedback.
 
-- Nouhaila ELMALOULI
+This project represents more than just technological innovation; it’s a step toward reshaping how we design for inclusivity, accessibility, and dignity. 
 
-- Sahil Youssaf
+Grateful for my collaborators: Sahil Youssaf | Eleftheria Papadosifou | Elena Papakosta | Kacper Wasilewski
 
-- Eleftheria Papadosifou
+Together, we’re proving that architecture and AI can work hand in hand to create spaces that truly serve everyone. 
 
-- Elena Papakosta
-
-- Kacper Wasilewski
-
-Features: 
+# Features: 
 
 1.Graph-based spatial analysis: Spot potential navigation bottlenecks, identify wayfinding improvements.
 
